@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.container span {
+  padding: 0 12px;
+  display: inline-block;
+  padding: 5px 20px;
+  color: #FBB244;
+  text-transform: uppercase;
+  background-color: rgba(251, 178, 68, 0.2);
+  border-radius: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 10px;
+}
+
+.container h1 {
+  margin-bottom: 16px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #081158;
+}
+
+.container p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 36px 0;
+}
+
+.container .header img {
+  display: inline-block;
+  cursor: pointer;
+  height: 18px;
+  margin-right: auto;
+}
+
+.container .header .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.container .header .nav li a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+.container .header a button {
+  padding: 6px 20px;
+  background: #081158;
+  border: 2px solid #081158;
+  color: #fbb244;
+  border-radius: 30px;
+  -webkit-transition: .18s;
+  transition: .18s;
+}
+
+.container .header a button:hover {
+  background-color: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+
+.container .rov {
+  padding-top: 130px;
+  padding-bottom: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .rov .london {
+  display: inline-block;
+  width: 40%;
+}
+
+.container .rov .london .london11 {
+  padding: 0 12px;
+}
+
+.container .rov .london .london11 p {
+  margin-bottom: 50px;
+}
+
+.container .rov .london .london11 p a:first-child {
+  color: white;
+  background: #081158;
+  border-radius: 30px;
+  padding: 12px 30px;
+  border: 1px solid #081158;
+  text-decoration: none;
+}
+
+.container .rov .london .london11 p a:first-child:hover {
+  color: #081158;
+  background: white;
+  border: 1px solid #081158;
+}
+
+.container .rov .london .london11 p a:last-child {
+  color: #081158;
+  background: white;
+  border: 1px solid #081158;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+}
+
+.container .rov .london .london11 p a:last-child:hover {
+  color: white;
+  background: #081158;
+}
+
+.container .rov .london1 {
+  width: 50%;
+}
+
+.container .rov .london1 .london2 {
+  width: 100%;
+}
+
+.container .rov .london1 .london2 img {
+  width: 100%;
+}
+
+.container .our {
+  text-align: center;
+  width: 41%;
+  margin: 0 auto;
+  padding-top: 160px;
+  padding-bottom: 60px;
+}
+
+.container .iconlarm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .iconlarm .box1 {
+  padding: 0 50px;
+  text-align: center;
+  padding-bottom: 112px;
+}
+
+.container .iconlarm .box1 .box2 {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #FBB244;
+  position: absolute;
+}
+
+.container .iconlarm .box1 .box3 {
+  position: relative;
+  font-size: 40px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.container .iconlarm .box1 h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.container .rasm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .rasm .rasm1 {
+  width: 60%;
+}
+
+.container .rasm .rasm1 img {
+  padding: 0 12px;
+  width: 100%;
+}
+
+.container .rasm .rasm2 {
+  padding: 0 12px;
+  width: 33%;
+}
+
+.container .rasm .rasm2 .a {
+  margin-bottom: 20px;
+}
+
+.container .rasm .rasm2 .b {
+  margin-bottom: 20px;
+}
+
+.container .rasm button {
+  background: #081158;
+  color: #fff;
+  border: 0;
+  padding: 12px 30px;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+.container .rasm button:hover {
+  color: #081158;
+  background: white;
+  border: 1px solid #081158;
+}
+
+.container .servis .text {
+  text-align: center;
+  padding-top: 224px;
+  padding-bottom: 48px;
+}
+
+.container .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 112px;
+}
+
+.container .box .box1 .box2 {
+  height: 50px;
+  width: 50px;
+  background: #FBB244;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.container .box .box1 i {
+  position: relative;
+  font-size: 50px;
+}
+
+.container .box .boxes {
+  width: calc((98%-3px)/2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 30px;
+  border: 1px solid #efefef;
+  margin-bottom: 30px;
+}
+
+.container .box .boxes .box1 {
+  font-size: 60px;
+}
+
+.container .box .boxes .box3 {
+  width: 80%;
+  margin-left: 20px;
+}
+
+.test {
+  background: #f8f9fa;
+  width: 100% !important;
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+
+.test .container .bb {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.test .container .bb p {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.test .container .abs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow-x: scroll;
+}
+
+.test .container .abs .for {
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: white;
+  border-radius: 7px;
+  padding: 41px;
+  margin-right: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.test .container .abs .for:hover {
+  border: 1px solid #081158;
+}
+
+.test .container .abs .for p {
+  font-size: 18px;
+}
+
+.test .container .abs .for .woody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.test .container .abs .for .woody img {
+  margin-top: 16px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.test .container .abs .for .woody h4 {
+  margin-top: auto;
+}
+
+.footer {
+  margin: 112px 0;
+}
+
+.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .container h2 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer .container .colo {
+  width: 33%;
+}
+
+.footer .container .colo p {
+  margin-bottom: 32px;
+}
+
+.footer .container .colo i {
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 50%;
+  background: #081158;
+  display: inline-block;
+  color: white;
+  padding: 8px;
+}
+
+.footer .container .contac {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 67%;
+}
+
+.footer .container .contac .b1 {
+  padding: 0 12px;
+  width: 67%;
+}
+
+.footer .container .contac .b1:first-child {
+  width: 30%;
+  padding-left: 60px;
+  padding-right: 12px;
+}
+
+.footer .container .contac .b1:nth-child(2) {
+  width: 30%;
+  padding: 0 12px;
+  display: block;
+}
+
+.footer .container .contac .b1:last-child {
+  width: 60%;
+}
+
+.footer .container .contac .b1 p {
+  margin-bottom: 10px;
+}
+
+.footer .container .contac .b1 p i {
+  margin-right: 10px;
+}
+
+.footer h6 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 112px 0;
+  letter-spacing: 1.1px;
+  text-align: center;
+}
+
+.footer h6 i {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */

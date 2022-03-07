@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cantainer {
+    display: flex;
+    margin: 36px 24px;
+    justify-content: space-around;
+    max-width: 1140px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.cantainer .ech {}
+
+.cantainer .home ul {
+    display: flex;
+    list-style: none;
+}
+
+.cantainer .home ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 10px 15px;
+
+}
+
+.cantainer .home ul li {
+    padding: 10px 5px;
+    display: block;
+    font-size: 14px;
+}
+
+.cantainer .home ul li button {
+    padding: 8px 20px;
+    background: #081158;
+    border: 2px solid #081158;
+    color: #FBB244;
+    border-radius: 30px;
+    display: block;
+    font-size: 14px;
+}
+
+.cantainer .home ul li button:hover {
+    color: #000;
+    background: white;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.londn {
+    display: flex;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* max-width: 1140px; */
+    font-family: "Montserrat", sans-serif;
+    margin-left: 140px;
+    margin-top: 140px;
+
+}
+
+.londn .in {
+    width: 60%;
+    margin-top: 40px;
+}
+
+.londn .in span {
+    display: inline-block;
+    padding: 5px 20px;
+    color: #FBB244;
+    background-color: rgba(251, 178, 68, 0.2);
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+
+.londn .in h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #081158;
+}
+
+.londn .in p {
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-bottom: 48px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .5);
+}
+
+.londn .in p a {
+    text-decoration: none;
+}
+
+.londn .in p a:first-child {
+    background-color: #081158;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: 1px solid #081158;
+}
+
+.londn .in p a:first-child:hover {
+    color: #081158;
+    border-radius: 30px;
+    border: 1px solid #081158;
+    background: white;
+}
+
+.londn .in p a:last-child {
+    padding: 15px 30px;
+    color: #081158;
+    border-radius: 30px;
+    border: 1px solid #081158;
+}
+
+.londn .in p a:last-child:hover {
+    background-color: #081158;
+    color: white;
+    /* padding: 15px 40px; */
+    border-radius: 30px;
+}
+
+.londn .imgi {
+    margin-left: 150px;
+
+}
+
+.londn .imgi img {
+    width: 100%;
+}
+
+.features {
+    width: 35%;
+    margin: auto;
+
+}
+
+.features span {
+
+    margin-left: 156px;
+    display: inline-block;
+    padding: 5px 20px;
+    color: #fbb244;
+    background-color: rgba(251, 178, 68, .2);
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+
+.features h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #081158;
+    font-family: "Open Sans", sans-serif;
+    padding: 14px;
+    margin-left: 70px;
+}
+
+.features p {
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-bottom: 48px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .5);
+}
+
+.iconlar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.iconlar .an {
+    width: 20%;
+}
+.iconlar .sarq{
+    position: absolute;
+    margin-left: 130px;
+
+    background-color: #fbb244;
+    opacity: .6;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.iconlar .an span{
+    position: relative;
+    font-size: 35px;
+    margin: 10px 79px;
+    display: block;
+    text-align: center;
+    
+}
+.iconlar .an h3{
+    margin-left: 22px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.iconlar .an p{
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-bottom: 48px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+}
+.rasimlar{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.rasimlar .r{
+    width: 50%;
+}
+.rasimlar .r img{
+    width: 100%;
+}
+.rasimlar .y{
+    width: 30%;
+}
+.rasimlar .y span{
+    display: inline-block;
+    padding: 5px 20px;
+    color: #fbb244;
+    background-color: rgba(251, 178, 68, .2);
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;    
+}
+.rasimlar .y h1{
+    font-weight: 800;
+    padding: 20px 0;
+    font-size: 40px;
+    font-weight: 700;
+    color: #081158;
+    font-family: "Open Sans", sans-serif;
+    width: 200px;
+}
+.rasimlar .y p{
+    line-height: 1.5;
+    margin-bottom: 48px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .5);
+
+}
+.rasimlar .y button{
+    padding: 15px 30px;
+    background: #081158;
+    border: 2px solid #081158;
+    color: white;
+    border-radius: 30px;
+    display: block;
+    font-size: 18px;    
+}
+.rasimlar .y button:hover{
+    color: #081158;
+    background: white;
+    border: 1px solid #081158;
+}
+
+
+.ou{
+    margin: 100px;
+    display: block;
+    /* margin: 0 auto; */
+}
+.ou span{
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.ou .ser{
+    display: flex;
+    justify-content: center;
+}
+
+.ou .display{
+    display: flex;
+    width: 20%;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+
